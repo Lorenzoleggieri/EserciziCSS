@@ -6,10 +6,30 @@ body {
 	display: none;
 }
 
+.show {
+	display: block;
+}
+
+.hide {
+	display: none;
+}
+
+#expand-toggle:checked ~ #expand-btn .show {
+	display: none;
+}
+
+#expand-toggle:checked ~ #expand-btn .hide {
+	display: block;
+}
+
 .expandable {
 	visibility: collapse;
 	background: gray;
 	color: white;
+}
+
+#expand-toggle:checked + table .expandable {
+	visibility: visible;
 }
 
 #expand-btn {
@@ -20,4 +40,9 @@ body {
 	border: 1px solid;
 	border-radius: 3px;
 	transition: 0.3s;
+	cursor: pointer;
+}
+
+#expand-toggle:checked ~ #expand-btn {
+	background-color: chartreuse;
 }
