@@ -1,0 +1,165 @@
+body {
+	box-sizing: border-box;
+	font-size: 62.75%;
+}
+
+.calculator {
+	width: 300px;
+	height: 300px;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: auto;
+	display: grid;
+	grid-template-areas:
+		"resultg resultg resultg resultg"
+		"plusg minusg perg divg"
+		"7g 8g 9g equalg"
+		"4g 5g 6g equalg"
+		"1g 2g 3g equalg"
+		"0g pointg ACg equalg";
+}
+
+.calculator div {
+	text-align: center;
+}
+
+.b {
+	border-right: 2px solid gray;
+}
+
+.c {
+	border-bottom: 2px solid gray;
+}
+
+.result {
+	grid-area: resultg;
+	background-color: rgb(65, 62, 62);
+	color: white;
+	font-size: 2rem;
+	text-align: right !important;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-right: 5px;
+}
+
+.textstyle {
+	font-size: 1.8rem;
+	color: black;
+}
+
+.symbolsbg {
+	background-color: rgb(141, 184, 226);
+}
+
+.plus {
+	grid-area: plusg;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.minus {
+	grid-area: minusg;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+}
+
+.per {
+	grid-area: perg;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+}
+
+.div {
+	grid-area: divg;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+}
+
+.seven {
+	grid-area: 7g;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+}
+
+.eight {
+	grid-area: 8g;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+}
+.nine {
+	grid-area: 9g;
+	flex-direction: column;
+	justify-content: center;
+	display: flex;
+}
+.four {
+	grid-area: 4g;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+}
+.five {
+	grid-area: 5g;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+}
+.six {
+	grid-area: 6g;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+}
+.one {
+	grid-area: 1g;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+}
+.two {
+	grid-area: 2g;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+}
+.three {
+	grid-area: 3g;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+}
+.zero {
+	grid-area: 0g;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	border-bottom-left-radius: 5px;
+}
+.point {
+	grid-area: pointg;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.ac {
+	grid-area: ACg;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.equal {
+	grid-area: equalg;
+	background-color: brown;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-bottom-right-radius: 5px;
+}

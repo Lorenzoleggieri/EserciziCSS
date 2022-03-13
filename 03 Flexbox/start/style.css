@@ -25,6 +25,7 @@ body {
 
 .links {
 	border: 1px solid blue;
+	margin: 0;
 }
 
 .links li a {
