@@ -55,6 +55,7 @@ body {
 
 #red ul {
 	display: flex;
+	flex-direction: row-reverse;
 	width: 100%;
 	justify-content: space-between;
 	align-items: center;
