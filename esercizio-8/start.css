@@ -1,0 +1,61 @@
+#father {
+	display: flex;
+	justify-content: space-between;
+	height: 100vh;
+	width: 100vw;
+	text-align: center;
+}
+
+#yellow {
+	order: 1;
+	flex-basis: 15%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+#yellow ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+#red {
+	order: 2;
+	flex-basis: 15%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#red ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+#green {
+	order: 3;
+	flex-basis: 15%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#orange {
+	order: 4;
+	flex-basis: 40%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#blue {
+	order: 5;
+	flex-basis: 15%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+}

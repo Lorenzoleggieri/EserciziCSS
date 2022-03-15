@@ -50,7 +50,7 @@ body {
 }
 
 .symbolsbg {
-	background-color: rgb(141, 184, 226);
+	background-color: rgb(192, 219, 245);
 }
 
 .plus {
@@ -157,7 +157,7 @@ body {
 }
 .equal {
 	grid-area: equalg;
-	background-color: brown;
+	background-color: rgb(218, 92, 92);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
