@@ -22,6 +22,15 @@
 	margin-bottom: 0px;
 }
 
+#yellow ul {
+	height: 50%;
+}
+#yellow ul li {
+	height: 25%;
+	display: flex;
+	align-items: center;
+}
+
 #orange {
 	grid-area: arancione;
 }
@@ -35,4 +44,13 @@
 	grid-area: rosso;
 	margin-right: 0px;
 	margin-bottom: 0px;
+}
+
+#red ul {
+	height: 50%;
+}
+#red ul li {
+	height: 25%;
+	display: flex;
+	align-items: center;
 }
